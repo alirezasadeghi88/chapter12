@@ -37,7 +37,9 @@ public class Calculator {
         }catch (ArithmeticException e) {
             System.out.println("خطا!" + e.getMessage());
         }catch (InvalidDnDOperationException e) {
-            System.out.println("خطا!:"  + e.getMessage());
+            System.out.println("خطا!:" + e.getMessage());
+        }catch (Exception e ) {
+
         }finally {
             System.out.println("برنامه ماشین حساب پایان یافت.");
         }
